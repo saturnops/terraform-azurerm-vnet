@@ -65,6 +65,8 @@ This module supports three scenarios to create Virtual Network resources on Azur
   - `logging_enabled          = true`
   - `create_vpn              = true`
 
+# IAM Permissions
+The required IAM permissions to create resources from this module can be found [here](https://github.com/saturnops/terraform-azurerm-vnet/blob/release/v1/roles.md)
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 ## Requirements
