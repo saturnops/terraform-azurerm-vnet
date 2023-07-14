@@ -1,4 +1,10 @@
-[
+## Roles Required
+
+<!-- BEGINNING OF PRE-COMMIT-PIKE DOCS HOOK -->
+Permissions required are:
+
+```json
+permissions {
     "Microsoft.Compute/disks/delete",
     "Microsoft.Compute/disks/read",
     "Microsoft.Compute/disks/write",
@@ -43,4 +49,6 @@
     "Microsoft.Storage/storageAccounts/listKeys/action",
     "Microsoft.Storage/storageAccounts/read",
     "Microsoft.Storage/storageAccounts/write"
-]
+}
+```
+<!-- END OF PRE-COMMIT-PIKE DOCS HOOK -->
